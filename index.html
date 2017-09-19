@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			background-color: beige;
+
+		}
+		#grad {
+  			background: red; /* For browsers that do not support gradients */
+			background: -webkit-linear-gradient(left,rgba(255,0,0,0),rgba(255,0,0,1)); /*Safari 5.1-6*/
+			background: -o-linear-gradient(rgba(255,0,0,0),rgba(255,0,0,1)); /*Opera 11.1-12*/
+			background: -moz-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,1)); /*Fx 3.6-15*/
+			/*background: linear-gradient(to top, rgba(255,0,0,0), rgba(0,191,255,1)); /*Standard*/
+			background: linear-gradient(90deg, rgba(0,0,0,0), rgba(169,169,169,1), rgba(0,0,0,0));
+		}
+
+		.container{
+			background-color: wheat;
+			width: 600px;
+			margin: 0 auto;
+			height: 600px;
+		}
+		ul{
+			width: 100%;
+			background-color: black;
+			list-style-type: none;
+			padding-left: 0;
+			margin: 0 auto;
+			text-align: center;
+			box-shadow: 0px 10px 15px grey;
+		}
+		li{
+			background-color: black;
+			color: white;
+			font-size: 25px;
+			font-family: calibri;
+			width: 100px;
+			line-height: 40px;
+			display: inline-block;
+			text-align: center;
+			vertical-align: center;
+		}
+
+		li.hover:hover{
+			background-color: white;
+			color: black;
+		}
+		.nav{
+			background-color: orange;
+		}
+
+	</style>
+</head>
+<body >
+	<div class="container">
+		<ul><!--The symbol ">" is placed like to eliminate the white-space that is created by "display: inline-block" -->
+			<li>---</li
+				><li class="hover">Home</li
+				><li class="hover">About</li
+				><li class="hover">Visit</li
+				><li>---</li>
+			</ul>
+		</div>
+	</body>
+	</html>
