@@ -1,0 +1,245 @@
+/* Top part of the website*/
+body {
+	margin-top:0px;
+	background: url(3.jpg);
+    background-attachment: fixed;
+	font-size: 100%;
+	font-family: "Arial", "Helvetica", "Verdana", "sans-serif";
+}
+/* The whole website is centered of the screen*/
+.center {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+	height: 600px;	
+}
+
+.header {
+	
+	margin-top:0px;
+  text-align: center;
+}
+
+.header img {
+	margin-top:0px;
+  position: relative;
+  top: 22px;
+  width: 70px;
+}
+  
+h1 {
+	margin-top:0px;
+	margin-bottom: 40px;
+	color: white;
+  
+}
+  
+  
+}
+
+.txtcen{
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 40px;
+	transform: translateY(-50%);
+}
+.contCenter1{	
+	
+	
+}
+.contCenter2{	
+	color: white;
+	float: center;
+	
+}
+
+
+
+
+/* Horizontal Menu Navigation*/
+.navcontainer
+{
+	margin-top: -16px;
+	margin-bottom: -20px;
+	margin-left: -40px;
+}
+ul.navlist li
+{
+	font:bold 16px Helvetica, Verdana, Arial, sans-serif;
+	border-color: white;
+	border: 2px;
+	list-style-type: none;
+	width: 194px;
+	display: inline-block;
+	background: #3f3f3f;
+	margin-right: -4px;
+	border-right:3px solid #4D0000;
+  	border-left:3px solid #761A1A;
+}
+.navlist li a
+{
+	line-height:200%;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.navlist li a.current, .navlist li a.current:hover
+{
+	background: #d70000;
+}
+.navlist li a:hover
+{
+	background: #900;
+}
+
+
+
+/* Main content background of my website style*/
+.content{
+	background-color: #F0F0F0 ;
+	width: 735px;
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+
+/* Not full view of an article */
+.heading
+{
+	text-decoration: none;
+	color: black;
+}
+.demo-description {
+	padding: 1px;
+}
+.border {
+	margin: auto;
+	margin-bottom: 20px;
+    background-color: #FFFF99;
+    box-shadow: 0px 10px 5px #888888;
+}
+.indexImageCenter
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.readmore{	
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/* Different side bar of my article*/
+/* Top news sidebar */
+.topnews{
+	margin-top: 15px;
+	width: 250px;
+	float: right;
+	background: #3f3f3f;
+}
+.topnewsTitle{
+	background: #d70000;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: center;
+	color: white;
+	font:bold 18px Helvetica, Verdana, Arial, sans-serif;	
+}
+.topSmallPics{
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 100px;
+	float: right;
+
+}
+.topnewsList{
+	margin-top: 5px;
+	color: white;
+}
+.topnewsList a{
+	color: white;
+}
+
+
+
+/* About me webpage style */
+.aboutMe{
+	margin-top: 15px;
+	width: 250px;
+	float: right;
+	background: #3f3f3f;
+}
+.aboutmePic{
+	margin-top: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+.aboutMe a{
+	color: white;
+}
+.meText{
+	margin-left: 10px;
+	color: white;
+	margin-bottom: 5px;
+}
+.aboutmefullpic{
+	width: 450px;
+}
+.mebold{
+	font-weight: bold;
+}
+
+/* Google search */
+.search{
+	margin-top: 10px;
+	width: 250px;
+	float: right;
+}
+.searchtitle{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: white;
+	font:bold 18px Helvetica, Verdana, Arial, sans-serif;	
+	background: #d70000;
+	display: block;
+	text-align: center;
+}
+
+/* 3D Globe Map that point your location on the map*/
+.map{
+	margin-top: 10px;
+	float: right;
+}
+/* Clock from Yandex*/
+.clock{
+	float: right;
+	margin-top: 10px;
+	background: rgb(255, 255, 255); 
+    
+}
+/* Weather widget for Lviv*/
+.weather{
+	margin-top: 10px;
+	float: right;
+}
+
+
+
+/* Footer part of my website*/
+.bottom{
+	clear: both;
+	background-color: green;
+	width: 1000px;
+	height: 50px;	
+}

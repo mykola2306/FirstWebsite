@@ -1,68 +1,158 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<style type="text/css">
-		body{
-			margin: 0;
-			background-color: beige;
-
-		}
-		#grad {
-  			background: red; /* For browsers that do not support gradients */
-			background: -webkit-linear-gradient(left,rgba(255,0,0,0),rgba(255,0,0,1)); /*Safari 5.1-6*/
-			background: -o-linear-gradient(rgba(255,0,0,0),rgba(255,0,0,1)); /*Opera 11.1-12*/
-			background: -moz-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,1)); /*Fx 3.6-15*/
-			/*background: linear-gradient(to top, rgba(255,0,0,0), rgba(0,191,255,1)); /*Standard*/
-			background: linear-gradient(90deg, rgba(0,0,0,0), rgba(169,169,169,1), rgba(0,0,0,0));
-		}
-
-		.container{
-			background-color: wheat;
-			width: 600px;
-			margin: 0 auto;
-			height: 600px;
-		}
-		ul{
-			width: 100%;
-			background-color: black;
-			list-style-type: none;
-			padding-left: 0;
-			margin: 0 auto;
-			text-align: center;
-			box-shadow: 0px 10px 15px grey;
-		}
-		li{
-			background-color: black;
-			color: white;
-			font-size: 25px;
-			font-family: calibri;
-			width: 100px;
-			line-height: 40px;
-			display: inline-block;
-			text-align: center;
-			vertical-align: center;
-		}
-
-		li.hover:hover{
-			background-color: white;
-			color: black;
-		}
-		.nav{
-			background-color: orange;
-		}
-
-	</style>
+<meta http-equiv="Content-Type"content="text/html; charset=utf-8">
+<link type="text/css" rel="stylesheet" href="website/style.css"/>
+<title>Інформаційні новини</title>
+<!-- Start WOWSlider.com HEAD section --><!-- add to the <head> of your page -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<link rel="shortcut icon" href="website/icon2.ico" >
 </head>
-<body >
-	<div class="container">
-		<ul><!--The symbol ">" is placed like to eliminate the white-space that is created by "display: inline-block" -->
-			<li>---</li
-				><li class="hover">Home</li
-				><li class="hover">About</li
-				><li class="hover">Visit</li
-				><li>---</li>
-			</ul>
-		</div>
-	</body>
-	</html>
+<body>
+<!-- --> 
+<!--Center the whole website in the middle-->
+<div class="center" > 
+  <!--Black background for the header-->
+  <div class="header" > 
+    <!-- Center the image and text that is in the header-->
+    <h1> <img src="website/44.png"> Інформаційні новини</h1>
+	
+	
+  </div>
+  <!--My top menu-->
+  <div class="navcontainer">
+    <ul class="navlist">
+      <li><a href="index.html" class="current">Головна</a></li>
+      <li><a href="#">Статті</a></li>
+      <li><a href="website/video.html">Відео уроки по HTML</a></li>
+      <li><a href="#">Підписатися</a></li>
+      <li><a href="website/aboutus.html">Про нас</a></li>
+    </ul>
+  </div>
+  <!--Here begins my content-->
+  <div class="content"> 
+    <!-- Start WOWSlider.com BODY section -->
+    <div id="wowslider-container1">
+      <div class="ws_images">
+        <ul>
+          <li><img src="data1/images/android5.jpg" alt="android5" title="Нова версія Android 5.0, Lollipop" id="wows1_0"/></li>
+          <li><a href="#"><img src="data1/images/color_by_Maruclla.jpg" alt="spec" title="color_by_maruclla" id="wows1_1"/></a></li>
+          <li><a href="video.html"><img src="data1/images/helloWorldHTML.jpg" alt="vidHelloWorld" title=" " id="wows1_2"/></a></li>
+        </ul>
+      </div>
+      <div class="ws_bullets">
+        <div> <a href="#" title="android5"><img src="data1/tooltips/android5.jpg" alt="android5"/>1</a> <a href="#" title="color_by_Maruclla"><img src="data1/tooltips/color_by_Maruclla.jpg" alt="color_by_Maruclla"/>2</a> <a href="#" title="vidHelloWorld"><img src="data1/tooltips/helloWorldHTML.jpg" alt="vidHelloWorld"/>3</a> </div>
+      </div>
+      <span class="wsl"><a href="http://wowslider.com/vu">image carousel</a> by WOWSlider.com v7.2</span>
+      <div class="ws_shadow"></div>
+    </div>
+    <script type="text/javascript" src="engine1/wowslider.js"></script> 
+    <script type="text/javascript" src="engine1/script.js"></script> 
+    <!-- End WOWSlider.com BODY section --> 
+    <!--Border for my article heading-->
+    <div class="border">
+      <div class="demo-description">
+        <div align="center">
+          <h2> <a class="heading" href="website/androidKeyboard.html">Трохи дивна клавіатура від Elecom (+5 фото)</a> </h2>
+        </div>
+      </div>
+    </div>
+    <!--A short version of my article--> 
+    <img src="website/androidKeyboard/img_1407440834.gif" class="indexImageCenter">
+    <p> Технологічні компанії створюють велику кількість різного роду пристроїв. Ймовірно, різновидів клавіатур вже не перерахувати - кожна компанія, велика або мала, випускає сотні і сотні видів клавіатур. Компанія Elecom випустила клавіатуру, яку можна назвати дивною. За виглядом це цікава клавіатура, призначена для смартфонів на Android OS. Безпровідний протокол, який тут використовується - NFC, а не Bluetooth або інфрачервоний тип зв’язку. <br>
+      <br>
+      Але найдивніше те, що в клавіатурі використовується елемент живлення, який не <a class="readmore" href="website/androidKeyboard.html">Читати далі...</a> </p>
+    <br>
+    <!--Border for my article heading-->
+    <div class="border">
+      <div class="demo-description">
+        <div align="center">
+          <h2> <a class="heading" href="website/bigtree.html">Найбільше дерево у світі</a> </h2>
+        </div>
+      </div>
+    </div>
+    <!--A short version of my article--> 
+    <img src="website/11.jpg" class="indexImageCenter" class="indexImageCenter">
+    <p >Виявляється, <b>найбільше дерево у світі</b> знаходиться у США (Сьєрра-Невада), і цей унікум рослинного царства навіть отримав власне ім’я: "Генерал Шерман". Розміри "Генерала" справді вражають. <br>
+      <br>
+      Висота дерева - близько 83 метри (до речі, це секвоя). Довжина кола стовбура внизу - 24 метри, коло крони - 33 метри. "Генерал" є місцевою гордістю, і тисячі туристів щорічно прибувають з всього світу, щоб подивитися на це дерево. Вік його - 2 тисячі років.<a class="readmore" href="website/bigtree.html">Читати далі...</a> <br>
+    
+    <div class="border">
+      <div class="demo-description">
+        <div align="center">
+          <h2> <a class="heading" href="website/ibmplace.html">Нова штаб-квартира IBM в Італії (+ колекція фото)</a> </h2>
+        </div>
+      </div>
+    </div>
+    <!--A short version of my article--> 
+    <img src="website/ibm/kVXAu.jpg" class="indexImageCenter">
+    <p> Серед великих технологічних корпорацій деякі виділяються оригінальністю дизайну своїх штаб-квартир. Що стосується Google, Microsoft і деяких інших компаній, то їх офіси ми вже бачили. А ось корпорація IBM ще жодного разу не демонструвала інтер’єру свого офісу з Італії. А подивитися там є на що. Дизайнери прагнули додати офісу максимальну футуристичність, і це їм вдалося. Тепер офіс більше схожий на космічний корабель, а не на, власне, офіс. Як думаєте, чи зручно працювати в такому офісі? <a class="readmore" href="website/ibmplace.html">Читати далі...</a> </p>
+  </div>
+  <!--Top news for my website on the sidebar-->
+  <div class="topnews">
+    <div class="topnewsTitle">Топ новини</div>
+    <div class="topnewsList">
+      <table>
+        <tr>
+          <td><img src="website/androidKeyboard/img_1407440834.gif" class="topSmallPics"></td>
+          <td><a href="website/androidKeyboard.html">Трохи дивна клавіатура від Elecom (+5 фото)</a></td>
+        </tr>
+        <tr>
+          <td colspan="2"><hr></td>
+        </tr>
+        <tr>
+          <td><img src="website/ibm/kVXAu.jpg" class="topSmallPics"></td>
+          <td><a href="website/ibmplace.html">Нова штаб-квартира IBM в Італії (+ колекція фото)</a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <!--About me section thats located on the sidebar-->
+  <div class="aboutMe">
+    <div class="topnewsTitle">Про мене</div>
+    <img class="aboutmePic" src="website/aboutme.jpg">
+    <div class="meText">Привіт, мене звати Микола.<br>
+      Я студент Національного університету “Львівська політехніка”<br>
+      <a href="website/aboutme.html"> Читати більше про мене.</a> </div>
+  </div>
+  
+  <!--Google search for my website-->
+  <div class="search"> <span class="searchtitle">Пошук по сайті</span> 
+    <script>
+  (function() {
+    var cx = '012753729505878137641:pcrd5rh6ufs';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+    <gcse:search></gcse:search>
+  </div>
+  <!--A 3D globe map that shows your location-->
+  <div class="map"> 
+    <script type="text/javascript" src="//ra.revolvermaps.com/0/0/1.js?i=0e2gz7tknym&amp;s=250&amp;m=0&amp;v=true&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000" async></script> 
+  </div>
+  
+  <!--Weather widget for Lviv-->
+  <div class="weather">
+    <div style="margin-left: 15px"> <span style="display: block !important; width: 250px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.4.33393&bannertypeclick=wu_clean2day" title="Lviv, Україна Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_metric_cond&airportcode=UKLL&ForcedCity=Lviv&ForcedState=Україна&wmo=33393&language=UA" alt="Find more about Weather in Lviv, UR" width="250" /></a><br>
+      <a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.4.33393&bannertypeclick=wu_clean2day" title="Get latest Weather Forecast updates" style="font-family: sans-serif; font-size: 12px" target="_blank">Click for weather forecast</a></span> </div>
+  </div>
+  <!--The footer part of my website-->
+  <div class="bottom">
+    <p align="center">© 2014 <br>
+      Всі права захищені</p>
+    <script type="text/javascript">var _clustrmaps = {'url' : 'http://infonews.16mb.com', 'user' : 1153345, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2014-12-07', 'lang' : 'ru', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script>
+    <noscript>
+    <a href="http://www4.clustrmaps.com/user/38c119941"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/infonews.16mb.com-thumb.jpg" alt="Locations of visitors to this page" /></a>
+    </noscript>
+  </div>
+</div>
+</body>
+</html>
