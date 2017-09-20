@@ -239,7 +239,9 @@ p{
 /* Footer part of my website*/
 .bottom{
 	clear: both;
-	background-color: green;
+	background-color: #3f3f3f;
 	width: 1000px;
 	height: 50px;	
+	color: white;
+	font-weight: bold;
 }
